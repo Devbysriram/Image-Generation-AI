@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 
-const apiKey = import.meta.env.VITE_APP_APIKEY;
+const apiKey = "iR6R1m69NS5t0aIMguCWT3BlbkFJXkT1vCXH3K8Evr1dISrn"
+;
 
 const Home = () => {
   const [prompt, setPrompt] = useState('');
